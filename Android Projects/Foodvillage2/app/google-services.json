@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830254842955",
+    "firebase_url": "https://foodvillage-69437.firebaseio.com",
+    "project_id": "foodvillage-69437",
+    "storage_bucket": "foodvillage-69437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830254842955:android:bce3546bbe36c6e6",
+        "android_client_info": {
+          "package_name": "com.example.sabbirtech.foodvillage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830254842955-6famcjf7of56soq988ai9gah7j2ti9mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sabbirtech.foodvillage",
+            "certificate_hash": "07194df9ad28b1ded1f43123f6fbce8926cc01a4"
+          }
+        },
+        {
+          "client_id": "830254842955-v54hsb589gie8j2igavj03p3q35v6da1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASq7aJYESQj63VWMN6ekevkcDcGvq1QVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830254842955-v54hsb589gie8j2igavj03p3q35v6da1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
