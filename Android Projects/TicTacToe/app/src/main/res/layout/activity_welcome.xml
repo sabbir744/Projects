@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#283232"
+    tools:context="com.tictactoe.sabbirtech.tictactoe.Welcome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="TIC"
+        android:textColor="#FF1B2D"
+        android:textSize="50sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="115dp"
+        android:textSize="50sp"
+        android:textColor="#35B056"
+        android:text="TAC"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="200dp"
+        android:textSize="50sp"
+        android:textColor="#FFCE44"
+        android:text="TOE"/>
+
+    <Button
+        android:id="@+id/tictactoebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#8CD3EC"
+        android:text="PLAY"
+        android:textSize="35sp" />
+
+</LinearLayout>
