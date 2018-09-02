@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabbirtech.mobidoc.DoctorPrescription">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/prescribeimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/addimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginTop="150dp"
+        android:text="ADD Prescription"
+        android:textColor="#ffff"
+        android:background="#ED1628"
+
+        android:layout_marginHorizontal="18dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/doctorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addimage"
+        android:layout_marginTop="14dp"
+        android:hint="Doctor Name"/>
+
+     <EditText
+         android:id="@+id/doctordetails"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/doctorname"
+         android:layout_marginTop="14dp"
+         android:hint="Doctor Details"
+         />
+
+    <Button
+
+        android:id="@+id/saveimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctordetails"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentBottom="true"
+        android:text="Save"
+        android:textColor="#ffff"
+        android:background="#ED1628"/>
+
+</RelativeLayout>
+
+</ScrollView>

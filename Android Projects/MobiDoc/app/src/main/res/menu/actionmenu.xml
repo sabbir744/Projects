@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adddoctor"
+        android:title="Add Doctor"
+        />
+    <item
+        android:id="@+id/viewdoctor"
+        android:title="Doctors Info"
+        />
+    <item
+        android:id="@+id/updatedoctor"
+        android:title="Update Doctors Info"
+        />
+    <item
+        android:id="@+id/addmedical"
+        android:title="Add Medical History"
+        />
+    <item
+        android:id="@+id/viewmedical"
+        android:title="Medical Info"
+        />
+
+
+
+</menu>

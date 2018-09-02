@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586816463864",
+    "firebase_url": "https://food-villa.firebaseio.com",
+    "project_id": "food-villa",
+    "storage_bucket": "food-villa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586816463864:android:af00ae0074cf7db1",
+        "android_client_info": {
+          "package_name": "com.sabbirtech.foodvilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586816463864-843vkuv1jsj8e394nsk2atblelarr3dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabbirtech.foodvilla",
+            "certificate_hash": "d3fea4fdab475d0b6899d4f9d8e2dd44f0cdbfea"
+          }
+        },
+        {
+          "client_id": "586816463864-39kh5ku4tqeo9ooklk1cg3bbgstvsfnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARnfx_Tz3X76fE2VDIA754R22lr0qAKfw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586816463864-39kh5ku4tqeo9ooklk1cg3bbgstvsfnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

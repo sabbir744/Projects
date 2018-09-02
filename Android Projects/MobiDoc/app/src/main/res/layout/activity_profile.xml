@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.sabbirtech.mobidoc.ProfileActivity">
+
+    <EditText
+    android:id="@+id/nameid"
+    android:hint="Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="18dp"/>
+
+    <EditText
+        android:id="@+id/detailsid"
+        android:hint="Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameid"
+        android:padding="18dp"
+        android:layout_margin="5dp"
+      />
+    <EditText
+        android:id="@+id/appointmentid"
+        android:hint="Appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsid"
+        android:padding="18dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/phoneid"
+        android:hint="Phone(+880)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="11"
+        android:layout_below="@id/appointmentid"
+        android:padding="18dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/emailid"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneid"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/saveid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ED1628"
+        android:text="Save"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
